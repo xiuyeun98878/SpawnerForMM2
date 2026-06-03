@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/MZSO7l8W/raw"))()
+
 
 
 local screenGui = Instance.new("ScreenGui")
