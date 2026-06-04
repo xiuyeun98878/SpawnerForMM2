@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/RgJr9HT1/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/DF0RgZVb/raw"))()
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game:GetService("CoreGui")
 
