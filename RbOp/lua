@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/eRgqoSGqFW/0"))()
+loadstring(game:HttpGet("https://cdn.sourceb.in/bins/V218sZQZyc/0"))()
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game:GetService("CoreGui")
 
